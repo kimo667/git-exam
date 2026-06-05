@@ -70,7 +70,7 @@ gitGraph
 Créez un fichier `.gitignore` et ajoutez les lignes `go.mod` et `.DS_Store` puis ajoutez le au dépôt distant.
 
 ## **Exercice 2**
-**(2 points)** Le fichier `README.md` comporte une erreur mineure. Pour une correction urgente et mineure, faites simplement une correction rapide en créant une nouvelle branche `hotfix` pour modifier le fichier et changer dans la phrase les mots “deux fonctionnalités” en “deux fonctionnalités”. Intégrez ensuite vos changements dans la branche `main`.
+**(2 points)** Le fichier `README.md` comporte une erreur mineure. Pour une correction urgente et mineure, faites simplement une correction rapide en créant une nouvelle branche `hotfix` pour modifier le fichier et changer dans la phrase les mots “deux fonctionnalitésgit add README.md” en “deux fonctionnalités”. Intégrez ensuite vos changements dans la branche `main`.
 
 ## **Exercice 3**
 **(4 points)** Le travail sur la branche `feature-url` qui ajoute la première fonctionnalité est déjà terminée. Intégrez la dans la branche `dev` en utilisant `git rebase`.
@@ -121,3 +121,9 @@ Vous devez :
 
 1. Revenir à l'état précédent avec `git reset` ou `git revert`.
 2. Expliquer la différence entre les deux commandes.
+
+différance entre les deux commandes 
+
+git revert crée un nouveau commit qui annule les changements
+
+git reset supprime le commit de l'historique
